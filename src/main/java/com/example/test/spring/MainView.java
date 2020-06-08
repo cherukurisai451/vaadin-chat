@@ -33,7 +33,7 @@ public class MainView extends VerticalLayout {
     addClassName("main-view");
     setSizeFull();
     setDefaultHorizontalComponentAlignment(Alignment.CENTER);
-    H1 header = new H1("Vaadin Chat");
+    H1 header = new H1("1517 ChatBox");
     header.getElement().getThemeList().add("dark");
     add(header);
 
