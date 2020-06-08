@@ -20,7 +20,7 @@ import reactor.core.publisher.UnicastProcessor;
 @Route("")
 @StyleSheet("frontend://styles/styles.css")
 @Push
-@PWA(name = "Vaadin Chat", shortName = "Chat")
+@PWA(name = "Group Chat 1517, shortName = "Chat")
 public class MainView extends VerticalLayout {
 
   private final UnicastProcessor<ChatMessage> publisher;
